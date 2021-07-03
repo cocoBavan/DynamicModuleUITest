@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DynamicModuleUITest</string>
+    <string name="title_dynoninstall">DynamicOnInstall</string>
+</resources>

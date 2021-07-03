@@ -112,13 +112,12 @@ class MainActivityTest {
         )
         materialButton3.perform(click())
 
-        /*val resources = InstrumentationRegistry.getInstrumentation().targetContext.resources
-        val button2Id: Int =
-            resources.getIdentifier("button2", "id", InstrumentationRegistry.getInstrumentation().targetContext.packageName)
+        val button3Id: Int =
+            resources.getIdentifier("buttononinstall", "id", "com.bltech.dynamicmoduleuitest.dynoninstall")
 
         val materialButton4 = onView(
             allOf(
-                withId(com.bltech.dynamicmoduleuitest.dynoninstall.R.id.button2), withText("Count"),
+                withId(button3Id), withText("Count"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),
@@ -133,7 +132,7 @@ class MainActivityTest {
 
         val materialButton5 = onView(
             allOf(
-                withId(com.bltech.dynamicmoduleuitest.dynoninstall.R.id.button2), withText("Count"),
+                withId(button3Id), withText("Count"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),
@@ -148,7 +147,7 @@ class MainActivityTest {
 
         val materialButton6 = onView(
             allOf(
-                withId(com.bltech.dynamicmoduleuitest.dynoninstall.R.id.button2), withText("Count"),
+                withId(button3Id), withText("Count"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),
@@ -163,7 +162,7 @@ class MainActivityTest {
 
         val materialButton7 = onView(
             allOf(
-                withId(com.bltech.dynamicmoduleuitest.dynoninstall.R.id.button2), withText("Count"),
+                withId(button3Id), withText("Count"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),
@@ -174,7 +173,7 @@ class MainActivityTest {
                 isDisplayed()
             )
         )
-        materialButton7.perform(click())*/
+        materialButton7.perform(click())
 
         pressBack()
 
